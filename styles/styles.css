@@ -1,9 +1,16 @@
 /* Estilos globales */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url(../img/imgfondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
   
   /* Estilos para el header */
   header {
@@ -39,12 +46,8 @@ body {
   #menu-icon {
     display: none;
   }
-  
-  
-  
   /* Estilos para el contenido */
   .content {
-    background-image: url(../img/imgfondo.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
