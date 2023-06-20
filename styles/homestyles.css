@@ -58,3 +58,22 @@ align-items:center;
   color:#ffffff;
   font-size: 35px;
 }
+
+body.fondo-blanco{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  background-color: white;
+}
+html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
